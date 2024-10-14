@@ -18,6 +18,7 @@ cd CSCE-689-HW2
 git clone https://huggingface.co/Morris88826/Mu-Ruei_Tseng_133007868_124M
 git clone https://huggingface.co/Morris88826/Mu-Ruei_Tseng_133007868_350M
 
+# dos2unix ./dev/eval/run_eval.sh
 # evaluate on hellaswag
 ./dev/eval/run_eval.sh Mu-Ruei_Tseng_133007868_124M log124M
 ./dev/eval/run_eval.sh Mu-Ruei_Tseng_133007868_350M log350M
