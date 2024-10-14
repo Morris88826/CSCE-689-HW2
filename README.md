@@ -24,6 +24,6 @@ git clone https://huggingface.co/Morris88826/Mu-Ruei_Tseng_133007868_350M
 ```
 
 ## Results
-We present the loss graph for the fine-tuned 10B dataset and evaluation results on HellaSwag. The custom 124M-parameter GPT-2 variant shows faster convergence and lower validation loss compared to the original GPT-2, resulting in a slight accuracy improvement from 29.4% to 30.78%. To further explore the impact of model size, a 350M-parameter version was trained. Despite completing fewer steps, it achieved a significantly lower loss and improved accuracy to 33.52%, nearing GPT-3’s 124M model performance. For more details regarding the implementation, please see [here]().
+We present the loss graph for the fine-tuned 10B dataset and evaluation results on HellaSwag. The custom 124M-parameter GPT-2 variant shows faster convergence and lower validation loss compared to the original GPT-2, resulting in a slight accuracy improvement from 29.4% to 30.78%. To further explore the impact of model size, a 350M-parameter version was trained. Despite completing fewer steps, it achieved a significantly lower loss and improved accuracy to 33.52%, nearing GPT-3’s 124M model performance. For more details regarding the implementation, please see [here](./report.pdf).
 
 ![output](https://github.com/user-attachments/assets/f6533c87-b202-4cc5-bb23-c16f55054d44)
